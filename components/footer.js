@@ -3,10 +3,10 @@ export default function Footer() {
 	return (
 		<footer className="bg-pink w-screen flex flex-col justify-evenly items-center mt-12">
 			<div>
-				<h1 className="text-5xl font-serif mt-10">The Luna Collection</h1>
+				<h1 className="text-center text-5xl font-serif mt-10">The Luna Collection</h1>
 			</div>
-			<div className="w-screen flex justify-evenly items-start mt-24 -mb-16">
-				<nav className="flex flex-col justify-evenly items-start">
+			<div className="w-screen flex flex-col md:flex-row justify-evenly items-center md:items-start mt-24 -mb-16 text-center md:text-left md:space-y-0 space-y-8">
+				<nav className="flex flex-col justify-evenly md:items-start">
 					<h3>Contact</h3>
 					<Link href="https://facebook.com"><a>Facebook</a></Link>
 					<Link href="mailto:email@domain.com"><a>E-Mail</a></Link>
@@ -19,7 +19,7 @@ export default function Footer() {
 					<h3>Cruelty Free</h3>
 					<img className="w-16 h-16" src="/icons/cruelty.png" alt="Cruelty Icon"/>
 				</div>
-				<nav className="flex flex-col justify-evenly items-end">
+				<nav className="flex flex-col justify-evenly md:items-end">
 					<h3>Navigation</h3>
 					<Link href="/"><a>Home</a></Link>
 					<Link href="/Linkbout"><a>About</a></Link>
