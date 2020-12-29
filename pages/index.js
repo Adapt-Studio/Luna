@@ -8,7 +8,7 @@ export default function Index() {
 	  <Layout>
 	  	<Hero/>
 	  	<div className="w-4/5 flex flex-col justify-evenly items-center mx-auto my-12">
-	  		<div className=" w-9/12 flex justify-evenly mb-16">
+	  		<div className="flex flex-col space-y-3 flex justify-evenly mb-16 md:flex-row md:w-9/12">
 	  			<div className="flex flex-col items-center">
 	  				<img className="bg-gray-500 w-96 h-96 mb-5"/>
 	  				<GhostBtn url="/shop" text="Shop All Soap"/>
