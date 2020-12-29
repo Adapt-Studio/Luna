@@ -26,7 +26,7 @@ export default function Header() {
 			</header>
 			<header className="flex w-screen inline-flex justify-between items-start mb-12 px-4 pt-4 md:hidden">
 				<a href="/"><img className="w-28" src="/icons/logo.png" alt="Luna Logo" /></a>
-				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" style={{width: '32px'}} onClick={menuClick}>
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" style={{width: '32px', position: 'fixed', top: '25px', right: '25px'}} onClick={menuClick}>
 					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
 				</svg>
 				<div id="menu">
