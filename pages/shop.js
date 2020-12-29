@@ -4,7 +4,7 @@ import ProductList from '../components/productlist'
 export default function Shop() {
 	return (
 		<Layout>
-			<ShopBanner/>
+			{/*<ShopBanner/>*/}
 			<ProductList/>
 		</Layout>
 	);
