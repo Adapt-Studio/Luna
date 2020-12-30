@@ -15,7 +15,7 @@ export default function Index() {
 	  			</div>
 	  			<div className="flex flex-col items-center">
 	  				<img className="bg-gray-500 w-96 h-96 mb-5"/>
-	  				<GhostBtn url="/shop" text="Shop All Balm"/>
+	  				<GhostBtn url="/shop" text='Shop All Balm'/>
 	  			</div>
 	  		</div>
 	  		<GhostBtn text="Shop All"/>
