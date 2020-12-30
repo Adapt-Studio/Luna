@@ -1,5 +1,4 @@
 import Layout from '..components/layout'
-import ShopHero from '../components/shophero'
 import Button from '../components/button'
 export default function Landing() {
 	return (
